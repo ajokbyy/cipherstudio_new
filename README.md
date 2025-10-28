@@ -274,9 +274,6 @@ Dependency Management: Allow users to add npm packages.
 Console Tab: Add a console panel to show console.log output and runtime errors from the iframe.
 
 Sharable Projects: Create public, read-only links for projects.
-<img src="./front_page.png" alt="CipherStudio Demo" width="600">
-<img src="./2nd_page.png" alt="CipherStudio Demo" width="600">
-<img src="./screenshot/Sc.png" alt="CipherStudio Demo" width="600">
 
 
 
