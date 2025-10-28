@@ -126,9 +126,9 @@ Base URL: `http://localhost:5000/api`
 ---
 
 ## 📸 Screenshots
-<img src="./front_page.png" alt="CipherStudio front page" width="720">
-<img src="./2nd_page.png" alt="CipherStudio IDE" width="720">
-<img src="./screenshot/Sc.png" alt="CipherStudio Projects" width="720">
+<img src="./screenshot/2.png" alt="CipherStudio front page" width="720">
+<img src="./screenshot/3.png" alt="CipherStudio IDE" width="720">
+<img src="./screenshot/6.png" alt="CipherStudio Projects" width="720">
 
 ---
 
