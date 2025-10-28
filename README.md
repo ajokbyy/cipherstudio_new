@@ -164,4 +164,66 @@ Console Tab: Add a console panel to show console.log output and runtime errors f
 Sharable Projects: Create public, read-only links for projects.
 
 
+## 🖥️ Run this project on your computer
+
+- **Prerequisites**
+  - Node.js 18+ and npm
+  - MongoDB (local) or a MongoDB Atlas connection string
+
+- **Clone the repo**
+  - PowerShell:
+    ```bash
+    git clone https://github.com/ajokbyy/cipherstudio_new.git
+    cd cipherstudio_new
+    ```
+
+- **Backend setup**
+  - PowerShell:
+    ```bash
+    cd backend
+    npm install
+    ```
+  - Create a `.env` file in `backend/`:
+    ```bash
+    MONGODB_URI=mongodb://localhost:27017/
+    MONGODB_DBNAME=cipherstudio
+    JWT_SECRET=replace_with_a_strong_random_secret
+    PORT=5000
+    ```
+    - If using MongoDB Atlas: set `MONGODB_URI` to your Atlas connection string.
+  - Start the API:
+    ```bash
+    npm start
+    ```
+    - API runs at http://localhost:5000 (base: http://localhost:5000/api)
+
+- **Frontend setup (new terminal)**
+  - PowerShell:
+    ```bash
+    cd frontend
+    npm install
+    ```
+  - Optional: if your API is not at http://localhost:5000, create `frontend/.env`:
+    ```bash
+    REACT_APP_API_BASE=http://YOUR_API_HOST:PORT/api
+    ```
+  - Start the app:
+    ```bash
+    npm start
+    ```
+    - Opens http://localhost:3000
+
+- **Log in and use**
+  - Register a user on the frontend, which stores a JWT in localStorage
+  - Create projects, edit in the Monaco editor, and they’ll save to MongoDB
+
+- **Troubleshooting**
+  - Mongo errors: verify `MONGODB_URI` and that MongoDB is reachable
+  - CORS/401: ensure `REACT_APP_API_BASE` matches your backend and the Authorization header is sent after login
+  - Windows Firewall: allow Node.js for ports 3000 and 5000
+
+Reference: [`github.com/ajokbyy/cipherstudio_new`](https://github.com/ajokbyy/cipherstudio_new/tree/main)
+
+---
+
 
