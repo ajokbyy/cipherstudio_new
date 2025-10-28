@@ -139,19 +139,6 @@ Base URL: `http://localhost:5000/api`
 
 ---
 
-## 📜 License
-MIT © 2025 Abhiraj Singh Chouhan
-
-✨ Features
-💻 In-Browser Code Editor: A rich text editor powered by @monaco-editor/react.
-
-🪄 Live Preview: A sandboxed iframe that transpiles and renders your React code in real-time.
-
-📁 File Explorer: A simple file tree to navigate between App.js, index.js, and styles.css.
-
-🔐 User Authentication: Secure user registration and login using JWT (JSON Web Tokens) and bcrypt for password hashing.
-
-💾 Save & Load Projects: Users can save their code to a MongoDB database and reload their projects from a personal dashboard.
 
 
 🔮 Future Improvements
@@ -226,4 +213,17 @@ Reference: [`github.com/ajokbyy/cipherstudio_new`](https://github.com/ajokbyy/ci
 
 ---
 
+## 📜 License
+MIT © 2025 Abhiraj Singh Chouhan
+
+✨ Features
+💻 In-Browser Code Editor: A rich text editor powered by @monaco-editor/react.
+
+🪄 Live Preview: A sandboxed iframe that transpiles and renders your React code in real-time.
+
+📁 File Explorer: A simple file tree to navigate between App.js, index.js, and styles.css.
+
+🔐 User Authentication: Secure user registration and login using JWT (JSON Web Tokens) and bcrypt for password hashing.
+
+💾 Save & Load Projects: Users can save their code to a MongoDB database and reload their projects from a personal dashboard.
 
